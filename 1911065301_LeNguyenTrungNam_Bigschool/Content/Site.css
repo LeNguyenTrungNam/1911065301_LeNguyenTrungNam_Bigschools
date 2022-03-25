@@ -28,24 +28,24 @@
         color: darkred;
     }
 
-.crs {
+.course {
     list-style: none;
 }
 
-    .crs > li {
+    .course > li {
         position: relative;
         margin-bottom: 30px;
         margin-top: 10px;
     }
 
 
-        .crs > li .details {
+        .course > li .details {
             position: absolute;
             top: 0;
             left: 70px;
         }
 
-        .crs > li .date {
+        .course > li .date {
             text-align: center;
             background-color: #eb6a05;
             color: yellow;
@@ -53,14 +53,19 @@
             border-radius: 8px;
         }
 
-        .crs > li .action {
+        .course > li .action {
             display: none;
             left: 70px;
             position: absolute;
         }
 
-        .crs > li:hover .action {
+        .course > li:hover .action {
             display: block;
+        }
+
+        .course  .action {
+            margin-top:-25px;
+            margin-bottom:20px;
         }
 
 /* Set width on the form input elements since they're 100% wide by default */

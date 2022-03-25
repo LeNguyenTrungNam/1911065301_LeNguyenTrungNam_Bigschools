@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.Globalization;
 using System.Linq;
 using System.Web;
 
@@ -30,7 +31,7 @@ namespace _1911065301_LeNguyenTrungNam_Bigschool.ViewModels
         public DateTime GetDateTime()
         {
             return DateTime.Parse(string.Format("{0} {1}", Date, Time));
-        }
+                }
         public string Heading { get; set; }
         public string Action
         {
@@ -41,3 +42,10 @@ namespace _1911065301_LeNguyenTrungNam_Bigschool.ViewModels
         }
     }
 }
+
+
+
+
+
+
+//ok r đó,commit lên đi

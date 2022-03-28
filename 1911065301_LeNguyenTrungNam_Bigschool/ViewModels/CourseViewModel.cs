@@ -48,4 +48,3 @@ namespace _1911065301_LeNguyenTrungNam_Bigschool.ViewModels
 
 
 
-//ok r đó,commit lên đi
